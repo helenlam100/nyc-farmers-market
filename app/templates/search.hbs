@@ -1,0 +1,8 @@
+<h2>Search By Borough Results</h2>
+
+{{#each post in model}}
+{{log post}}
+  <li>{{post.facilityname}}, located at: {{post.facilitystreetname}}, {{post.facilitycity}}, {{post.facilityzipcode}}</li>
+{{/each}}
+
+{{outlet}}
